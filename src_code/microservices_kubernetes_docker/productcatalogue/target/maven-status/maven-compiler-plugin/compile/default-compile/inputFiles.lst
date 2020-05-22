@@ -1,0 +1,6 @@
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/productcatalogue/src/main/java/com/shekhar/shopping/productcatalogue/resources/ProductResource.java
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/productcatalogue/src/main/java/com/shekhar/shopping/productcatalogue/configuration/ProductServiceConfiguration.java
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/productcatalogue/src/main/java/com/shekhar/shopping/productcatalogue/ProductServiceApplication.java
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/productcatalogue/src/main/java/com/shekhar/shopping/productcatalogue/services/ProductService.java
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/productcatalogue/src/main/java/com/shekhar/shopping/productcatalogue/model/Product.java
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/productcatalogue/src/main/java/com/shekhar/shopping/productcatalogue/healthchecks/BasicHealthCheck.java

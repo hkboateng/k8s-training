@@ -1,0 +1,7 @@
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/stockmanager/src/main/java/com/shekhar/shopping/stockmanager/StockManagerApplication.java
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/stockmanager/src/main/java/com/shekhar/shopping/stockmanager/exceptions/StockNotFoundException.java
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/stockmanager/src/main/java/com/shekhar/shopping/stockmanager/services/StockService.java
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/stockmanager/src/main/java/com/shekhar/shopping/stockmanager/model/Stock.java
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/stockmanager/src/main/java/com/shekhar/shopping/stockmanager/repositories/StockRepository.java
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/stockmanager/src/main/java/com/shekhar/shopping/stockmanager/resources/StockResource.java
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/stockmanager/src/main/java/com/shekhar/shopping/stockmanager/config/DataGenerator.java

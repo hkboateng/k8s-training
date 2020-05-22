@@ -1,0 +1,9 @@
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/shopfront/src/main/java/com/shekhar/shopping/shopfront/services/ProductService.java
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/shopfront/src/main/java/com/shekhar/shopping/shopfront/model/Product.java
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/shopfront/src/main/java/com/shekhar/shopping/shopfront/services/dto/ProductDTO.java
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/shopfront/src/main/java/com/shekhar/shopping/shopfront/resources/ProductResource.java
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/shopfront/src/main/java/com/shekhar/shopping/shopfront/controllers/HomeController.java
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/shopfront/src/main/java/com/shekhar/shopping/shopfront/repo/StockRepo.java
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/shopfront/src/main/java/com/shekhar/shopping/shopfront/ShopfrontApplication.java
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/shopfront/src/main/java/com/shekhar/shopping/shopfront/repo/ProductRepo.java
+/home/ubuntu/microservices-bootcamp/exercise/src_code/microservices_kubernetes_docker/shopfront/src/main/java/com/shekhar/shopping/shopfront/services/dto/StockDTO.java
