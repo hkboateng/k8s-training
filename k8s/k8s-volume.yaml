@@ -1,0 +1,42 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: two-containers
+spec:
+  type: NodePort
+  ports:
+    - port: 8090
+      targetPort: 80
+  selector:
+    app: two
+---
+apiVersion: v1 
+kind: Pod 
+metadata:
+  name: two-containers
+  label:
+    app: two
+spec:
+  containers:
+    - name: first
+      image: nginx
+      volumeMounts:
+        - name: shared-data
+          mountPath: /usr/share/nginx/html
+    - name: second
+      image: debian
+      command:
+        - "bin\sh"
+        - "-c"
+        - >
+          while true ; do
+            date >> /pod-data/index.html;
+            echo Hello from the second container >> /pod-data/index.html;
+            sleep 20
+          done
+      volumnMounts:
+        - name:shared-data
+          mountPath: /pod-data
+  volumes:
+    - name: shared-data
+      emptyDir: {}

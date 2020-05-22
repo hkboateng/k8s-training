@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pv-pod1-svc
+spec:
+  selector:
+    app: pv-pod1
+  type: ClusterIP
+  ports:
+    - port: 9001
+      targetPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: pv-pod2-svc
+spec:
+  selector:
+    app: pv-pod2
+  type: ClusterIP
+  ports:
+    - port: 9002
+      targetPort: 80
+

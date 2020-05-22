@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: example-cm
+  labels:
+    app: cm-v1
+data:
+  database: mongodb
+  log_level: debug
+  keys: |
+    test.key=123

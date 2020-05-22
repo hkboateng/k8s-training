@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: logme
+  namespace: test
+spec:
+  containers:
+    - name: gen
+      image: centos:7
+      command:
+        - "bin/bash"
+        - "-c"
+        - "while true; do echo $(date) | tee /dev/stderr; sleep 5; done"
+    - name: gen2
+      image: centos:7
+      command:
+        - "bin/bash"
+        - "-c"
+        - "while true; do echo $(whoami) | tee /dev/stderr; sleep 6; done"
